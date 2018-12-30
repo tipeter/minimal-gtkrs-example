@@ -1,0 +1,12 @@
+[package]
+name = "minimal-gtkrs-example"
+version = "0.1.0"
+authors = ["tipeter <piotr.tihanyi@gmail.com>"]
+edition = "2018"
+
+[dependencies.gtk]
+version = "0.5.0"
+features = ["v3_22"]
+
+[dependencies.gio]
+version = "0.5.1"
